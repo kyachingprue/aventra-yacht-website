@@ -6,6 +6,7 @@ import PageHero from '../components/PageHero'
 import Reveal from '../components/Reveal'
 import YachtCard from '../components/YachtCard'
 import { yachts } from '../data/yachts'
+import YachtsBannerCard from '../components/YachtsBannerCard'
 
 const types = ['All', 'Motor Yacht', 'Sailing Yacht', 'Catamaran', 'Super Yacht']
 
@@ -90,6 +91,7 @@ export default function Yachts() {
           )}
         </div>
       </section>
+      <YachtsBannerCard/>
     </>
   )
 }
